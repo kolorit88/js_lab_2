@@ -1,0 +1,59 @@
+use("FirstBase");
+db.students.insertMany([
+    {
+        lastName: "Irisov",
+        firstName: "Denis",
+        middleName: "Sergeevich",
+        birthYear: 2001,
+        course: 3,
+        group: "MOA-221",
+        languages: ["English", "French"],
+        studiedSubjects: [
+            { name: "AI", semester: 1, grade: 5.0},
+            { name: "Coding", semester: 2, grade: 4.9},
+            { name: "Sport games", semester: 2, grade: 5.0}
+        ]
+    },
+    {
+        lastName: "Petrov",
+        firstName: "Ivan",
+        middleName: "Alexandrovich",
+        birthYear: 2002,
+        course: 2,
+        group: "MOA-211",
+        languages: ["English", "German"],
+        studiedSubjects: [
+            { name: "Mathematics", semester: 1, grade: 4.5},
+            { name: "Physics", semester: 1, grade: 4.7},
+            { name: "History", semester: 2, grade: 4.8}
+        ]
+    },
+    {
+        lastName: "Sidorova",
+        firstName: "Maria",
+        middleName: "Ivanovna",
+        birthYear: 2000,
+        course: 4,
+        group: "MOA-201",
+        languages: ["English", "Spanish"],
+        studiedSubjects: [
+            { name: "Chemistry", semester: 1, grade: 4.9},
+            { name: "Biology", semester: 2, grade: 5.0},
+            { name: "Literature", semester: 2, grade: 4.6}
+        ]
+    },
+    {
+        lastName: "Kozlov",
+        firstName: "Alexey",
+        middleName: "Viktorovich",
+        birthYear: 2001,
+        course: 3,
+        group: "MOA-221",
+        languages: ["English", "Chinese"],
+        studiedSubjects: [
+            { name: "AI", semester: 1, grade: 4.8},
+            { name: "Coding", semester: 2, grade: 4.7},
+            { name: "Sport games", semester: 2, grade: 4.9}
+        ]
+    }
+]);
